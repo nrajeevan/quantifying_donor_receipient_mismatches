@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Written by Nallakkandi Rajeevan, Ph.D.
+# Contact: n.rajeevan@yale.edu
+# Date: July 27, 2026
+
 home_dir=${HOME}/KidneyTransplant/Mismatch
 work_dir=${home_dir}/Analysis
 out_dir=${work_dir}/BBDuk
