@@ -1,5 +1,8 @@
 Files in this repository:
 
+For any assistance in using these programs, please contact:<br>
+	Nallakkandi Rajeevan, Ph.D. <br>
+	Email: n.rajeevan@yale.edu
 
 1. BBDuk Adapter trim
 
