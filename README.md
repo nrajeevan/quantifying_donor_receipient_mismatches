@@ -31,4 +31,17 @@ Files in this repository:
    b) make_gatk_variant_call_batch_files.sh
    c) make_joblist_gatk_variant_call_from_template.sh
 
-6)
+6) Genotype GVCFs all samples
+
+   a) gatk_combine_GVCFs_all_samples.sh
+   b) gatk_Genotype_GVCFs_all_samples.sh
+   c) make_joblist_gatk_Genotype_GVCFs_all_samples_from_template.sh
+   d) gatk_Filter_Variants_with_VQSR_all_samples.sh
+   e) bcftools_sample_vcf_from_samples_vcf.sh
+   
+ 7) Compute Donor/Recepient mismatch 
+ 
+   a) mismatch_in_cfDNA_or_urDNA.sh
+   b) mismatch_score_analysis_geneset.sh
+   c) mismatch_score_analysis_genome.sh
+   
