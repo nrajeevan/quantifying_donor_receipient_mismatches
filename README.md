@@ -3,9 +3,9 @@ Files in this repository:
 
 1. BBDuk Adapter trim
 
-   -- bbduk_adapter_trim_template.sh
-   -- make_bbduk_batch_files.sh
-   -- make_joblist_bbduk_from_template.sh
+   a) bbduk_adapter_trim_template.sh<br>
+   b) make_bbduk_batch_files.sh
+   c) make_joblist_bbduk_from_template.sh
 
 2) BWA alignment
 
