@@ -82,7 +82,8 @@ if [ TRUE ]; then
 	    --dbsnp ${dbsnp_file} \
 	    -I ${sorted_dedup_bqsr_reads} \
 	    -O ${raw_gvcf_variants} \
-	    -ERC GVCF
+	    -ERC GVCF \
+		-ploidy 4
       fi
 
       # with allele speific annaotation
@@ -94,7 +95,8 @@ if [ TRUE ]; then
 	    -I ${sorted_dedup_bqsr_reads} \
 	    -O ${raw_gvcf_variants} \
 	    -ERC GVCF \
-            --native-pair-hmm-threads 16 \
+		-ploidy 4 \
+        --native-pair-hmm-threads 16 \
 	    -G StandardAnnotation \
 	    -G AS_StandardAnnotation
       fi
