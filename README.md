@@ -7,15 +7,15 @@ For any assistance in using any of these programs, please contact:<br>
 The following programs are written to ru in a linux cluster running a job scheduler.
 
 First create a bash array of sample files as:
-declare -a sample_array=(
-	Sample1_Donor_gdna
-	Sample1_Rec_gdna
-	Sample1_Rec_cfdna
-	Sample1_Rec_urdna
-	Sample2_Donor_gdna
-	Sample2_Rec_gdna
-	Sample2_Rec_cfdna
-	Sample2_Rec_urdna
+declare -a sample_array=(<br>
+	Sample1_Donor_gdna<br>
+	Sample1_Rec_gdna<br>
+	Sample1_Rec_cfdna<br>
+	Sample1_Rec_urdna<br>
+	Sample2_Donor_gdna<br>
+	Sample2_Rec_gdna<br>
+	Sample2_Rec_cfdna<br>
+	Sample2_Rec_urdna<br>
 )
 
 This array is used to create batch files and joblist for scheduling the jobs in the cluster.
