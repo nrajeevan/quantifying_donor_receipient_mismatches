@@ -7,7 +7,7 @@ For any assistance in using any of these programs, please contact:<br>
 The following programs are written to ru in a linux cluster running a job scheduler.
 
 First create a bash array of sample files as:
-declare -a sample_list=(
+declare -a sample_array=(
 	Sample1_Donor_gdna
 	Sample1_Rec_gdna
 	Sample1_Rec_cfdna
